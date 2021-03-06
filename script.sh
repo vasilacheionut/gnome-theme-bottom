@@ -4,14 +4,14 @@ sudo apt install gnome-tweaks -y
 sudo apt install gnome-shell-extensions -y
 
 mkdir mojave
-mkdir mojave/theme
-mkdir mojave/icons
+mkdir mojave/.themes
+mkdir mojave/.icons
 mkdir mojave/pictures
 
-tar -xf Mojave-dark.tar.xz -C mojave/theme
-tar -xf Mojave-light.tar.xz -C mojave/theme
+tar -xf Mojave-dark.tar.xz -C mojave/.themes
+tar -xf Mojave-light.tar.xz -C mojave/.themes
 
-tar -xf 01-McMojave-circle.tar.xz -C mojave/icons
+tar -xf 01-McMojave-circle.tar.xz -C mojave/.icons
 
 tar -xf Mojave-pictures.tar.xz -C mojave/pictures
 
