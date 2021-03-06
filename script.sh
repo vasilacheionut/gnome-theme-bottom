@@ -8,6 +8,7 @@ sudo apt install gnome-shell-extensions -y
 
 mkdir mytheme
 cd mytheme
+
 mkdir .theme
 tar -xf Mojave-dark.tar.xz -C .theme
 tar -xf Mojave-light.tar.xz -C .theme
