@@ -6,14 +6,17 @@ sudo apt install gnome-shell-extensions -y
 mkdir mojave
 mkdir mojave/.themes
 mkdir mojave/.icons
-mkdir mojave/pictures
+mkdir mojave/Pictures
 
 tar -xf Mojave-dark.tar.xz -C mojave/.themes
 tar -xf Mojave-light.tar.xz -C mojave/.themes
+cp -R .themes/ /home/$USER
 
 tar -xf 01-McMojave-circle.tar.xz -C mojave/.icons
+cp -R .icons/ /home/$USER
 
-tar -xf Mojave-pictures.tar.xz -C mojave/pictures
+tar -xf Mojave-pictures.tar.xz -C mojave/Pictures
+cp -R Pictures/ /home/$USER
 
 gsettings set org.gnome.shell.extensions.dash-to-dock extend-height false
 gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 40
