@@ -4,7 +4,7 @@ sudo apt install gnome-shell-extensions -y
 
 mkdir Pictures
 
-tar -xf Pictures.tar.xz -C Pictures
+tar -xf pictures.tar.xz -C Pictures
 cp -R Pictures/ /home/$USER
 
 gsettings set org.gnome.shell.extensions.dash-to-dock extend-height false
