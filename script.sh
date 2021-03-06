@@ -1,6 +1,3 @@
-mkdir mojave
-cd mojave
-
 sudo apt update
 sudo apt upgrade
 sudo apt install gnome-tweaks -y
